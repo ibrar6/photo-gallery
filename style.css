@@ -1,0 +1,21 @@
+*{
+    font-family: 'mate';
+}
+h1{
+    border-bottom: 3px dotted black;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+img{
+    margin-bottom: 50px;
+}
+@media (min-width: 577px){
+    image{
+        display: flex;
+    }
+}
+@media (max-width: 576px) {
+    img{
+        width: 90%;
+    }
+}
